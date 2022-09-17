@@ -1,0 +1,13 @@
+READ AND WRITE "Buyer's Name" with String
+PRINT "Buyer's Name"
+DISPLAY "List Menu"
+STORE "Input Menu" as String with name of menu in list menu
+STORE "Quantity" as Number with any value
+DISPLay "Total Price"
+
+IF "payment" E-Money
+    PRINT "Payment Succes"
+    DISPLAY "Receipt"
+ELSE
+    DISPLAY "Receipt"
+END
